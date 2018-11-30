@@ -1,0 +1,54 @@
+
+*
+{
+    font-family: Helvetica;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightsalmon;
+     background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  
+        
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+
+.main{
+    padding-left: 10px;
+    
+}
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+    
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+}
